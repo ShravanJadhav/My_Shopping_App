@@ -1,0 +1,7 @@
+{
+    "git.enabled": true,
+    "git.enableSmartCommit": true,
+    "git.fetchOnPull": true,
+    "git.branchRandomName.enable": true,
+    "git.enableCommitSigning": true
+}

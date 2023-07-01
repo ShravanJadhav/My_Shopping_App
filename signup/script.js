@@ -23,7 +23,7 @@ homeBtn.addEventListener('click', ()=>{
   location.href = "/"
 });
 productBtn.addEventListener('click', ()=>{
-  location.href = "/products"
+  location.href = "./products/index"
 });
 mycartBtn.addEventListener('click', ()=>{
   location.href = "/cart"

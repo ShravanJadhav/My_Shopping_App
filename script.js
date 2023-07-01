@@ -113,7 +113,7 @@ function isValidNumber(mobile) {
 // create account functions
 createBtn.addEventListener("click", (event) => {
   event.preventDefault();
-   
+  // data-bs-target="#success" data-bs-dismiss="modal" data-bs-toggle="modal"
   let fNameInput = fName.value.trim();
   let lNameInput = lName.value.trim();
   let emailInput = email.value.trim();
@@ -157,7 +157,7 @@ createBtn.addEventListener("click", (event) => {
         saveUser(fNameInput, lNameInput, emailInput, passwordInput);
         createBtn.textContent = "Done";
         document.getElementById("msg").innerText = "";
-        
+        // createBtn.setAttribute('data-bs-dismiss', 'modal');
         fName.value = "";
         lName.value = "";
         email.value = "";
@@ -169,7 +169,7 @@ createBtn.addEventListener("click", (event) => {
       }
     } else {
       saveUser(fNameInput, lNameInput, emailInput, passwordInput);
-      
+      // createBtn.setAttribute('data-bs-dismiss', 'modal');
       fName.value = "";
       lName.value = "";
       email.value = "";
@@ -181,7 +181,7 @@ createBtn.addEventListener("click", (event) => {
     }
   }
 
-  
+  // }
 });
 
 // email validation
